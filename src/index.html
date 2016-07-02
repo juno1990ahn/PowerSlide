@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>PowerSlide</title>
+    <link rel="stylesheet" href="assets/styles/global.css">
+  </head>
+  <body>
+    <h1>Onsong</h1>
+
+    <button id="add-songs-btn">Add song</button>
+    <button id="go-live-btn">Go Live</button>
+    <div>
+      <p id="file-contents">File contents go here</p>
+    </div>
+
+    <script type="text/javascript">
+      window.$ = window.jQuery = require('./lib/jquery.min.js');
+    </script>
+    <script src="lib/bootstrap.min.js" ></script>
+    <script src="renderer-process/song_management.js"></script>
+  </body>
+</html>

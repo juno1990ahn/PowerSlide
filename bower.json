@@ -1,0 +1,21 @@
+{
+  "name": "powerslide",
+  "description": "program for showing onsong files as powerpoint",
+  "main": "",
+  "authors": [
+    "June Iee Ahn <juno1990ahn@gmail.com>"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap-sass": "bootstrap-sass-official#^3.2.0",
+    "jquery" : "^1.10.0"
+  }
+}
